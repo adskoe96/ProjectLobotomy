@@ -2,6 +2,7 @@
   
 # Project Lobotomy
 
+[Download latest releaase](https://github.com/adskoe96/ProjectLobotomy/releases)  
 Entertaining desktop program that silently and suddenly displays a random image from your personal folders right on your screen.  
 Supports Windows and Linux.
 
@@ -15,7 +16,7 @@ sudo apt install qtbase5-dev qttools5-dev-tools qtmultimedia5-dev
 
 ### Windows
 ```
-just store this program with dll files ;p
+Visual C++ Redistributable i guess??
 ```
 
 ## Building from Source
