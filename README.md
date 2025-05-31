@@ -2,8 +2,8 @@
   
 # Project Lobotomy
 
-Entertaining desktop program that silently and suddenly displays a random image from your personal folders right on your screen.  
 [Download latest releaase](https://github.com/adskoe96/ProjectLobotomy/releases)  
+Entertaining desktop program that silently and suddenly displays a random image from your personal folders right on your screen.  
 Supports Windows and Linux.
 
 ## Dependencies
