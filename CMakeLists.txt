@@ -16,6 +16,7 @@ if(MSVC)
 endif()
 
 find_package(Qt5 COMPONENTS Core Gui Widgets Multimedia REQUIRED)
+find_package(CURL REQUIRED)
 
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
     "${CMAKE_SOURCE_DIR}/src/*.cpp"
