@@ -1,4 +1,4 @@
-![icon](https://github.com/user-attachments/assets/e53b5fe8-993c-42d7-80e2-f91ce0498316)
+<img src="https://github.com/user-attachments/assets/e53b5fe8-993c-42d7-80e2-f91ce0498316" style="width:100px; height:auto;" alt="icon" />
 # Project Lobotomy
 
 Entertaining desktop program that silently and suddenly displays a random image from your personal folders right on your screen.  
