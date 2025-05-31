@@ -16,12 +16,15 @@ sudo apt install qtbase5-dev qttools5-dev-tools qtmultimedia5-dev
 
 ### Windows
 ```
-Visual C++ Redistributable i guess??
+Visual C++ Redistributable and necessary that the .exe file be located next to the .dll files
 ```
 
 ## Building from Source
 
 ```
+-- if windows
+vcpkg install qt5
+
 git clone https://github.com/adskoe96/ProjectLobotomy.git
 cd project-lobotomy
 mkdir build && cd build
