@@ -10,7 +10,6 @@ Supports Windows and Linux.
 
 ### Linux (Debian/Ubuntu)
 ```bash
-sudo apt update
 sudo apt install qtbase5-dev qttools5-dev-tools qtmultimedia5-dev
 ```
 
@@ -30,6 +29,9 @@ cd ProjectLobotomy
 
 -- if windows
 mkdir build && buildRelease
+
+-- if ubuntu/debian
+mkdir build && chmod +x ./buildRelease.sh && ./buildRelease.sh
 ```
 
 ## How to escape from this???!!
