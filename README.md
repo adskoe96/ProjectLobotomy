@@ -27,9 +27,7 @@ vcpkg install qt5
 
 git clone https://github.com/adskoe96/ProjectLobotomy.git
 cd project-lobotomy
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
+mkdir build && buildRelease
 ```
 
 ## How to escape from this???!!
