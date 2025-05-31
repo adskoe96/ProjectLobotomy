@@ -24,6 +24,7 @@ Visual C++ Redistributable and necessary that the .exe file be located next to t
 -- if windows
 vcpkg install qt5
 
+-- both platforms
 git clone https://github.com/adskoe96/ProjectLobotomy.git
 cd ProjectLobotomy
 
@@ -31,7 +32,7 @@ cd ProjectLobotomy
 mkdir build && buildRelease
 
 -- if ubuntu/debian
-mkdir build && chmod +x ./buildRelease.sh && ./buildRelease.sh
+mkdir build && sudo apt-get install -y build-essential && chmod +x ./buildRelease.sh && ./buildRelease.sh
 ```
 
 ## How to escape from this???!!
