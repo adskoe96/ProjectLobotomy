@@ -16,7 +16,7 @@ sudo apt install qtbase5-dev qttools5-dev-tools qtmultimedia5-dev
 
 ### Windows
 ```
-just store this program with dll files ;p
+Visual C++ Redistributable i guess??
 ```
 
 ## Building from Source
