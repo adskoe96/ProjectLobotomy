@@ -1,6 +1,7 @@
 # --- CMake ---
 CMakeFiles/
 CMakeCache.txt
+CMakeUserPresets.json
 cmake_install.cmake
 Makefile
 build-release/

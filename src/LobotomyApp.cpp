@@ -84,6 +84,7 @@ LobotomyApp::LobotomyApp(int& argc, char** argv)
 }
 
 void LobotomyApp::scheduleNextShow() {
+    // Random time to show the lobotomy
     int delaySeconds = 30 + QRandomGenerator::global()->bounded(60);
     showTimer->start(delaySeconds * 1000);
 }
