@@ -27,3 +27,6 @@ mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 ```
+
+## How to escape from this???!!
+bruh, just look at your tray

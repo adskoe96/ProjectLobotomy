@@ -63,11 +63,14 @@ private:
 LobotomyApp::LobotomyApp(int& argc, char** argv)
     : QApplication(argc, argv)
 {
+    QIcon appIcon(":/icon.png");
+    setWindowIcon(appIcon);
+
     soundEffect = new QSoundEffect(this);
     soundEffect->setSource(QUrl("qrc:/sound.wav"));
     soundEffect->setVolume(0.5f);
 
-    trayIcon = new QSystemTrayIcon(QIcon(":/icon.png"), this);
+    trayIcon = new QSystemTrayIcon(appIcon, this);
     QMenu* menu = new QMenu();
     QAction* quitAction = new QAction("Exit from lobotomy", this);
     connect(quitAction, &QAction::triggered, this, &QApplication::quit);
@@ -87,6 +90,7 @@ void LobotomyApp::scheduleNextShow() {
 
 void LobotomyApp::initiateImageSearch() {
     QStringList directories = {
+        // If you want, you can add more directories
         QStandardPaths::writableLocation(QStandardPaths::DownloadLocation),
         QStandardPaths::writableLocation(QStandardPaths::PicturesLocation),
         QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation)
@@ -137,7 +141,6 @@ QStringList LobotomyApp::findImageFiles(const QStringList& directories)
             imageFiles << fileInfo.absoluteFilePath();
         }
 
-        // Рекурсивный поиск
         QFileInfoList subdirs = dir.entryInfoList(QDir::Dirs | QDir::NoDotAndDotDot);
         for (const QFileInfo& subdirInfo : subdirs) {
             imageFiles.append(findImageFiles({ subdirInfo.absoluteFilePath() }));
