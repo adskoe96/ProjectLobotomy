@@ -26,7 +26,9 @@ Visual C++ Redistributable and necessary that the .exe file be located next to t
 vcpkg install qt5
 
 git clone https://github.com/adskoe96/ProjectLobotomy.git
-cd project-lobotomy
+cd ProjectLobotomy
+
+-- if windows
 mkdir build && buildRelease
 ```
 
