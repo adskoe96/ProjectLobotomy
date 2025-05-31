@@ -23,11 +23,12 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
     "${CMAKE_SOURCE_DIR}/src/*.hpp"
 )
 
-qt5_add_resources(RESOURCES resources.qrc)
+set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/res")
+qt5_add_resources(RESOURCES_CPP "${RESOURCES_DIR}/resources.qrc")
 
 add_executable(ProjectLobotomy
     ${SOURCES}
-    ${RESOURCES}
+    ${RESOURCES_CPP}
 )
 
 if(WIN32)
