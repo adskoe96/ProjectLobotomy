@@ -6,6 +6,12 @@
 Entertaining desktop program that silently and suddenly displays a random image from your personal folders right on your screen.  
 Supports Windows and Linux.
 
+## Important information
+Don't use this on stream if you have personal data on your computer. You download the program knowing this, releasing us from responsibility for what happens.
+
+## Privacy Policy
+Your data is not tracked, the program runs locally on your computer and does not send anyone's data, it is not identified or sent.
+
 ## Dependencies
 
 ### Linux (Debian/Ubuntu)
