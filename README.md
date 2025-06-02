@@ -14,14 +14,19 @@ Your data is not tracked, the program runs locally on your computer and does not
 
 ## Dependencies
 
+### Windows
+```
+Visual C++ Redistributable and necessary that the .exe file be located next to the .dll files
+```
+
 ### Linux (Debian/Ubuntu)
 ```bash
 sudo apt install qtbase5-dev qttools5-dev-tools qtmultimedia5-dev
 ```
 
-### Windows
-```
-Visual C++ Redistributable and necessary that the .exe file be located next to the .dll files
+### Linux (Arch)
+```bash
+sudo pacman -S qt5-base qt5-tools qt5-multimedia
 ```
 
 ## Building from Source
@@ -31,6 +36,9 @@ Visual C++ Redistributable and necessary that the .exe file be located next to t
 -- install cmake: https://cmake.org/download/
 -- install git: https://git-scm.com/downloads
 vcpkg install qt5
+
+-- if arch
+sudo pacman -S git cmake
 
 -- if ubuntu/debian
 sudo apt install git && sudo apt install cmake && sudo apt-get install -y build-essential
@@ -42,7 +50,7 @@ cd ProjectLobotomy
 -- if windows
 mkdir build && buildRelease
 
--- if ubuntu/debian
+-- if linux
 mkdir build && chmod +x ./buildRelease.sh && ./buildRelease.sh
 ```
 
