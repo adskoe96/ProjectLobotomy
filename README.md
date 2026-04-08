@@ -1,5 +1,7 @@
 <img src="https://github.com/user-attachments/assets/e53b5fe8-993c-42d7-80e2-f91ce0498316" style="width:100px; height:auto;" alt="icon" />
-  
+
+### Logo from Lobotomy Corporation: https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/
+---
 # Project Lobotomy
 
 [Download latest releaase](https://github.com/adskoe96/ProjectLobotomy/releases)  
